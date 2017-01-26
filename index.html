@@ -11,34 +11,133 @@
   </body>
 </html>
 <!-- header -->
-<header class="main-header">
-	<div class="container"> <!-- for center gray -->
-		<a class="header-logo" href="/">Нёрдс</a>
-		<nav class="header-navigation">
-          			<ul>
-            			<li>
-              				<a href="#">Студия</a>
-            			</li>
-            			<li>
-              				<a href="#">Клиенты</a>
-            			</li>
-            			<li>
-              				<a href="#">Магазин</a>
-            			</li>
-            			<li>
-              				<a href="#">Контакты</a>
-            			</li>            		
-          			</ul>
-        		</nav>
+<header class="main-header"><!-- gray box? -->
+  <div class="container"> <!-- gray box?-->
+    <div class="header-logo">
+        <img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс">
+    </div>
+    <nav class="main-header-navigation">
+        <a href="">Студия</a>
+        <a href="">Клиенты</a>
+        <a href="">Магазин</a>
+        <a href="">Контакты</a>
+    </nav>
+    <div class="buy"> 
+      <a class="basket" href="#">Корзина</a>
+    </div>
 
-		<h1>Магазин готовых шаблонов</h1>
-	</div>
-	
+    <!-- slider-->  
+    
+    <input type="radio" id="btn-1" name="toggle" checked>
+    <input type="radio" id="btn-2" name="toggle">
+    <input type="radio" id="btn-3" name="toggle">
 
+    <div class="slider">
+        <div class="slide" id="slide1">
+          <div class="slide-title">Долго, дорого, скрупулезно.</div>
+          <div class="slide-description">Математически выверенный дизайн 
+          для вашего сайта или мобильного приложения.</div>
+          <img src="nerds-index-slide1.png" width="698" height="413" alt="">
+          <a class="slide-btn" href="#">Узнать больше</a>
+        </div>
+        <div class="slide" id="slide2">
+          <div class="slide-title">Любим математику как никто другой.</div>
+          <div class="slide-description">Никакого креатива, только математические формулы 
+          для расчета идеальных пропорций.</div>
+          <img src="nerds-index-slide2.png" width="663" height="430" alt="">
+          <a class="slide-btn" href="#">Узнать больше</a>
+        </div>
+        <div class="slide" id="slide3">
+          <div class="slide-title">Только ночь,только хардкор</div>
+          <div class="slide-description">Работать днем, как все? Мы против этого.
+          Ближе к полуночи работа только начинается.</div>
+          <img src="nerds-index-slide3.png" width="759" height="411" alt="">
+          <a class="slide-btn" href="#">Узнать больше</a>
+        </div>        
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+    </div>    
 
+<!-- main-->
+<main class="container">
+<!-- особенности -->
+  <section class="features"> <!-- group of items-->
+    <div class="features-item">
+       <img src="illustration-1.jpg" width="300" height="146" alt="">
+       <h2>Веб-сайты</h2>
+       <p class="features-width">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+       <a class="btn col1" href="#">Заказать</a>        
+    </div>
+    <div class="features-item">
+       <img src="illustration-2.jpg" width="300" height="146" alt="">
+       <h2>Приложения</h2>
+       <p class="features-width">Покорите топ-10 приложений в AppStore и Google Play</p>
+       <a class="btn col2" href="#">Заказать</a>        
+    </div>
+    <div class="features-item">
+       <img src="illustration-3.jpg" width="300" height="146" alt="">
+       <h2>Презентации</h2>
+       <p class="features-width">Вы даже не подозреваете,  насколько вы изумительны!</p>
+       <a class="btn col3" href="#">Заказать</a>        
+    </div>  
+  </section>
 
-</header>
+  <!-- about-->
+  <div class="about">
+    <div class="about-left">
+      <h3>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h3>
+      <p class="about-width">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+      превыше креатива. Работаем не покладая рук, как роботы.</p>
+      <ul><h4>Выполняем заказы на разработку:</h4>
+        <li><p>Веб-сайтов любой сложности</p></li>
+        <li><p>Мобильных приложений для iOS и Android</p></li>
+        <li><p>Слайдшоу и видео для корпоративных презентаций</p></li>
+      </ul>
+    </div>
+  <div class="about-left">
+    <div class="logo-main">
+      <img src="illustration-2.jpg" width="360" height="208" alt="Нёрдс"> 
+    </div>
+    <h4>с 2004 года любим точность во всем:</h4>
+    146% <!-- span?-->
+    100%
+    50%
+    <p class="about-left-width">Уровень самоотдачи</p>
+    <p class="about-left-width">Соблюдение  сроков</p>
+    <p class="about-left-width">Минимальная предоплата</p> 
+  </div>
 
-ul>li*5
+  <!-- partners-->
+  <div class="partners">
+    <a href="#"><img src="logo-1.png" width="199" height="68" class="partners-item" alt="htmlacademy"></a>
+    <a href="#"><img src="logo-2.png" width="209" height="90" class="partners-item" alt="Барбершоп «Бородинский"></a>
+    <a href="#"><img src="logo-3.png" width="185" height="52" class="partners-item" alt="Pink"></a>
+    <a href="#"><img src="logo-4.png" width="173" height="84" class="partners-item" alt="Mishka"></a>
+  </div>
+</main>
 
+<!-- footer-->
+
+<footer class="main-footer">
+  <div class="container">
+    <div class="map">
+      <img src="Слой 2" width="1440" height="785" alt="Карта"> 
+    </div>
+    <div class="box">
+      <h4>NЁRDS DESIGN STUDIO</h4>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p>тел. +7 (812) 275-75-75</p> 
+      <a class="btn col1" href="#">Заказать</a>   
+    </div>  
+  </div>
+
+  <section class="footer-social">
+    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+  </section>
+</footer>
 
