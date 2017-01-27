@@ -17,10 +17,20 @@
         <img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс">
     </div>
     <nav class="main-header-navigation">
-        <a href="">Студия</a>
-        <a href="">Клиенты</a>
-        <a href="">Магазин</a>
-        <a href="">Контакты</a>
+      <ul>
+        <li>
+          <a href="">Студия</a>
+        </li>
+        <li>
+          <a href="">Клиенты</a>
+        </li>
+        <li>
+          <a href="">Магазин</a>
+        </li>
+        <li>
+          <a href="">Контакты</a>
+        </li>
+      </ul>       
     </nav>
     <div class="buy"> 
       <a class="basket" href="#">Корзина</a>
@@ -28,9 +38,9 @@
 
     <!-- slider-->  
     
-    <input type="radio" id="btn-1" name="toggle" checked>
-    <input type="radio" id="btn-2" name="toggle">
-    <input type="radio" id="btn-3" name="toggle">
+    <input type="radio" id="slide-1" name="point" checked>
+    <input type="radio" id="slide-2" name="point">
+    <input type="radio" id="slide-3" name="point">
 
     <div class="slider">
         <div class="slide" id="slide1">
@@ -66,10 +76,10 @@
 <!-- main-->
 <main class="container">
 <!-- особенности -->
-  <section class="features"> <!-- group of items-->
+  <section class="features"> 
     <div class="features-item">
        <img src="illustration-1.jpg" width="300" height="146" alt="">
-       <h2>Веб-сайты</h2>
+       <h2>Веб-сайты</h2>                      <!-- h1?-->
        <p class="features-width">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
        <a class="btn col1" href="#">Заказать</a>        
     </div>
@@ -89,30 +99,39 @@
 
   <!-- about-->
   <div class="about">
-    <div class="about-left">
-      <h3>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h3>
-      <p class="about-width">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+    <div class="about-mission">
+      <p>Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
+      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
       превыше креатива. Работаем не покладая рук, как роботы.</p>
-      <ul><h4>Выполняем заказы на разработку:</h4>
-        <li><p>Веб-сайтов любой сложности</p></li>
-        <li><p>Мобильных приложений для iOS и Android</p></li>
-        <li><p>Слайдшоу и видео для корпоративных презентаций</p></li>
+      <h4>Выполняем заказы на разработку:</h4>     <!-- h4???-->  
+      <ul>
+        <li>Веб-сайтов любой сложности</li>
+        <li>Мобильных приложений для iOS и Android</li>
+        <li>Слайдшоу и видео для корпоративных презентаций</li>
       </ul>
     </div>
-  <div class="about-left">
-    <div class="logo-main">
-      <img src="illustration-2.jpg" width="360" height="208" alt="Нёрдс"> 
+    <!-- right part-->
+    <div class="about-data">
+      <div class="logo-big">
+        <img src="illustration-2.jpg" width="360" height="208" alt="Нёрдс"> 
+      </div>
+      <h4>с 2004 года любим точность во всем:</h4>    <!-- h4???--> 
+      <div class="about-data-item ">
+        <span>146%</span>
+        <p>Уровень самоотдачи</p>        
+      </div>
+      <div class="about-data-item ">
+        <span>100%</span>
+        <p>Соблюдение  сроков</p>        
+      </div>
+      <div class="about-data-item ">
+        <span>50%</span>
+        <p>Минимальная предоплата</p>        
+      </div>
     </div>
-    <h4>с 2004 года любим точность во всем:</h4>
-    146% <!-- span?-->
-    100%
-    50%
-    <p class="about-left-width">Уровень самоотдачи</p>
-    <p class="about-left-width">Соблюдение  сроков</p>
-    <p class="about-left-width">Минимальная предоплата</p> 
-  </div>
-
-  <!-- partners-->
+  
+ <!-- partners-->
+ 
   <div class="partners">
     <a href="#"><img src="logo-1.png" width="199" height="68" class="partners-item" alt="htmlacademy"></a>
     <a href="#"><img src="logo-2.png" width="209" height="90" class="partners-item" alt="Барбершоп «Бородинский"></a>
@@ -129,7 +148,7 @@
       <img src="Слой 2" width="1440" height="785" alt="Карта"> 
     </div>
     <div class="box">
-      <h4>NЁRDS DESIGN STUDIO</h4>
+      <p>NЁRDS DESIGN STUDIO</p>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <p>тел. +7 (812) 275-75-75</p> 
       <a class="btn col1" href="#">Заказать</a>   
@@ -141,5 +160,7 @@
     <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
   </section>
+  <p>Давайте дружить, это выгодно!</p>
+  <p>Скидка 10% для друзей из социальных сетей.</p>
 </footer>
 
