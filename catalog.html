@@ -25,7 +25,7 @@
           <a href="#">Клиенты</a>
         </li>
         <li>
-          <a class="active" href="#">Магазин</a>
+          <a>Магазин</a>
         </li>
         <li>
           <a href="">Контакты</a>
@@ -36,28 +36,37 @@
       <a class="basket" href="#">Корзина</a>
     </div>
     <h1>Магазин готовых шаблонов</h1>
+</header>
 
 <!-- main-->
 
 <main class="container">
 <!-- filters-->
 	<div class="filter_catalog">
-		<h2 class="title-filter">Стоимость:</h2>
-		<div class="scale">
+		<h2>Стоимость:</h2>
+		<div class="price-filter">
+			<div class="range-filter">
+            	<div class="range-controls">
+                	<div class="scale">
+                		<div style="margin-left:50px;width:100px;" class="bar">
+                	</div>
+                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="15 000">
+            </div>
+        </div>
+	
 
-			<!-- ?????-->
-
-		</div>
-		<div class="range">
-			
-		</div>
-
-		<form action="https://echo.htmlacademy.ru" method="post">  <!-- or get???-->
+		<form action="https://echo.htmlacademy.ru" method="get">
 
 			<fieldset class="grid">
-				<legend class="grid-title">Сетка:</</legend>
+				<legend class="grid-title"><h2>Сетка:</h2></legend> <!-- можно еще списком-->
 				<label>
-                	<input type="radio" name="kind-grid" value="Адаптивная" checked>Адаптивная
+				     <input type="radio" name="kind-grid" value="Адаптивная" checked>Адаптивная
                 </label>
                 <label>
                 	<input type="radio" name="kind-grid" value="Фиксированная">Фиксированная
@@ -66,10 +75,10 @@
                 	<input type="radio" name="kind-grid" value="Резиновая">Резиновая
                 </label>
 			</fieldset>
-<!-- background???-->
+
 
 			<fieldset class="things">
-				<legend class="things_title">Особенности:</legend>
+				<legend class="things_title"><h2>Особенности:</h2></legend>
 				<label>
 					<input type=="checkbox" name="item-things" value="Слайдер" checked>Слайдер
 				</label>
@@ -85,39 +94,77 @@
 					<input type=="checkbox" name="item-things" value="Корзина" checked>Корзина
 				</label>
 			</fieldset>
-<!-- background???-->
 
-			<input class="btn col4" type="submit" value="Показать">
+			<input class="btn" type="submit" value="Показать">
 		</form>
 	</div>
+
 <!-- templates-->
 	<div class="templates">
 		<div class="templates-arrange">
-			<p>Сортировать:</p>  <!-- H?-->
+			<h2>Сортировать:</h2>  <!-- H?-->
 			<ul>
 				<li><a href="#">По цене</a>
 				</li>
-				<li><a class="active" href="#">По типу</a>
+				<li><a>По типу</a>
 				</li>
-				<li><a class="active" href="#">По названию</a>
+				<li><a>По названию</a>
 				</li>
 			</ul>
 	<!-- ???-->
 			<div>
-				<a class="btn triangular-1" href="#">?</a>
-				<a class="btn triangular-2" href="#">?</a> 
+				<a class="btn down" href="#">?</a>
+				<a class="btn up" href="#">?</a> 
 			</div>	        
 		</div>
 
-<!-- items-->
 
-		<div class="templates-items">
-			<!-- 6 sliders.-->
-			<!-- ???-->
+		<div class="templates-item"><!-- 6 items-->
+			<input type="radio" name="point" id="slide1">
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide5">
+			<div class="slider">
+				<div class="slides slide1"></div>
+				<div class="slides slide2"></div>
+				<div class="slides slide3"></div>				
+			</div>
+			<div class="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+
+			<input type="radio" name="point" id="slide1">
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide5">
+			<div class="slider">
+				<div class="slides slide1"></div>
+				<div class="slides slide2"></div>
+				<div class="slides slide3"></div>				
+			</div>
+			<div class="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+
+			<input type="radio" name="point" id="slide1">
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide5">
+			<div class="slider">
+				<div class="slides slide1"></div>
+				<div class="slides slide2"></div>
+				<div class="slides slide3"></div>				
+			</div>
+			<div class="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
 		</div>		
 <!-- buttons-->
 		<ul class="templates-paginations">
-			<li><a class="active" href="#">1</a></li>
+			<li><a>1</a></li>
 			<li><a href="#">2</a></li>
 			<li><a href="#">3</a></li>
 			<li><a href="#">Следующая</a></li>
