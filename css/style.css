@@ -1,0 +1,22 @@
+body {
+font-size: 16 px;
+height: 24 px;
+color: #283136;
+font-weigt: Regular;
+font-family: Roboto;
+}
+h1 {
+font-size: 55 px;
+height: 55 px;
+color: #000000;
+font-weigt: Medium;
+font-family: Roboto;
+
+}
+h2 {
+font-size: 24 px;
+height: 30 px;
+color: #000000;
+font-weigt: Bold;
+font-family: Roboto;
+}

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -33,7 +34,7 @@
       </ul>       
     </nav>
     <div class="buy"> 
-      <a class="basket" href="#">Корзина</a>
+      <a class="basket" href="#"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина"></a>
     </div>
     <h1>Магазин готовых шаблонов</h1>
 </header>
@@ -111,57 +112,37 @@
 				<li><a>По названию</a>
 				</li>
 			</ul>
-	<!-- ???-->
+	
 			<div>
-				<a class="btn down" href="#">?</a>
-				<a class="btn up" href="#">?</a> 
+				<a class="btn down" href="#">вниз</a>
+				<a class="btn up" href="#">вверх</a> 
 			</div>	        
 		</div>
 
 
-		<div class="templates-item"><!-- 6 items-->
-			<input type="radio" name="point" id="slide1">
-			<input type="radio" name="point" id="slide2">
-			<input type="radio" name="point" id="slide5">
-			<div class="slider">
-				<div class="slides slide1"></div>
-				<div class="slides slide2"></div>
-				<div class="slides slide3"></div>				
-			</div>
-			<div class="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-			</div>
+		<div class="templates-item">
+			<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
+			<span>Sedona</span>
+			<p>Информационный сайт  для туристов</p>
+			<a class="item-btn" href="#">9 900 руб.</a>			
+		</div>	
+		<div class="templates-item">
+			<img src="img/img-pink.jpg" width="360" height="576" alt="Pink">
+		</div>
+		<div class="templates-item">
+			<img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
+		</div>	
+		<div class="templates-item">
+			<img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
+		</div>
+		<div class="templates-item">
+			<img src="img/img-aplus.jpg" width="360" height="576" alt="Aplus">
+		</div>	
+		<div class="templates-item">
+			<img src="img/img-kvast.jpg" width="360" height="576" alt="Kvast">
+		</div>	
 
-			<input type="radio" name="point" id="slide1">
-			<input type="radio" name="point" id="slide2">
-			<input type="radio" name="point" id="slide5">
-			<div class="slider">
-				<div class="slides slide1"></div>
-				<div class="slides slide2"></div>
-				<div class="slides slide3"></div>				
-			</div>
-			<div class="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-			</div>
-
-			<input type="radio" name="point" id="slide1">
-			<input type="radio" name="point" id="slide2">
-			<input type="radio" name="point" id="slide5">
-			<div class="slider">
-				<div class="slides slide1"></div>
-				<div class="slides slide2"></div>
-				<div class="slides slide3"></div>				
-			</div>
-			<div class="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-			</div>
-		</div>		
+		
 <!-- buttons-->
 		<ul class="templates-paginations">
 			<li><a>1</a></li>
@@ -179,20 +160,20 @@
 <footer class="main-footer">
   <div class="container">
     <div class="map">
-      <img src="Слой 2" width="1440" height="785" alt="Карта"> 
+      <img src="img/map_and-marker.jpg" width="1440" height="785" alt="Карта"> 
     </div>
     <div class="box">
       <p>NЁRDS DESIGN STUDIO</p>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <p>тел. +7 (812) 275-75-75</p> 
-      <a class="btn col1" href="#">Заказать</a>   
+      <a class="btn" href="#">Заказать</a>   
     </div>  
   </div>
 
   <section class="footer-social">
-    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+    <a class="social-btn social-btn-vk" href="#"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
+    <a class="social-btn social-btn-fb" href="#"><img src="img/fb-icon.png" width="12" height="22" class="partners-item" alt="Фэйсбук"></a>
+    <a class="social-btn social-btn-inst" href="#"><img src="img/insta-icon.png" width="21" height="21" class="partners-item" alt="Инстаграм"></a>
   </section>
   <p>Давайте дружить, это выгодно!</p>
   <p>Скидка 10% для друзей из социальных сетей.</p>
