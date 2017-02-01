@@ -1,22 +1,22 @@
 body {
-font-size: 16 px;
-height: 24 px;
+font-size: 16px;
+height: 24px;
 color: #283136;
-font-weigt: Regular;
-font-family: Roboto;
+font-weigt: regular;
+font-family: Roboto Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 h1 {
-font-size: 55 px;
-height: 55 px;
+font-size: 55px;
+height: 55px;
 color: #000000;
-font-weigt: Medium;
-font-family: Roboto;
+font-weigt: medium;
+font-family: Roboto Helvetica Neue, Helvetica, Arial, sans-serif;
 
 }
 h2 {
-font-size: 24 px;
-height: 30 px;
+font-size: 24px;
+height: 30px;
 color: #000000;
-font-weigt: Bold;
-font-family: Roboto;
+font-weigt: bold;
+font-family: Roboto Helvetica Neue, Helvetica, Arial, sans-serif;
 }
