@@ -11,7 +11,6 @@ height: 55px;
 color: #000000;
 font-weigt: medium;
 font-family: Roboto, Helvetica, Arial, sans-serif;
-
 }
 h2 {
 font-size: 24px;
@@ -19,4 +18,108 @@ height: 30px;
 color: #000000;
 font-weigt: bold;
 font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main-header {
+	width: 1440px;
+	background: #EEEEEE;
+  }
+
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;  
+  width: 1260px;
+  margin-left: 60px; 
+  background: gray;
+  margin-bottom: 73px;
+}
+  
+}
+.header-logo {
+	width: 160px;	
+	background: green;
+	 
+	}
+
+.main-header-navigation {
+  width: 440px;
+  background: green;
+  
+}
+
+.buy {
+  width: 160px;
+   min-height: 70px;
+    background: green;
+  }
+
+.slider {
+	width: 400px;
+	margin-left: 140px;
+	margin-bottom: 80px;
+	background: red;
+	 min-height: 70px;
+}
+.slide-title {
+	width: 400px;
+	margin-bottom: 25px;
+	padding: 0px; 
+	height: 50px;
+}
+
+.main-container {
+	width: 1440px;
+	background: #EEEEEE;
+}
+.features {
+	display: flex;
+	background: gray;
+	width: 1100px;
+	margin-left: 140px;
+	
+  justify-content: space-between;
+  margin-bottom: 125px;
+  
+}
+.info-graph {
+	width: 300px;
+	height: 146px;
+}
+.about {
+	display: flex;	
+  justify-content: space-between;
+  margin-bottom: 75px;
+  width: 1160px;
+  margin: 0 auto;
+  background: gray;
+
+}
+.about-mission {
+	background: green;
+	width: 660px;
+	margin: 0 auto;
+	
+}
+.about-data {
+	background: green;
+	width: 360px;
+}
+.partners {
+	display: flex;	
+  justify-content: space-between;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  background: gray;
+}
+.main-footer {
+	width: 1440px;
+	background: #EEEEEE;
+}
+.footer-social {
+	background: gray;
+	display: flex;	
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto;
 }

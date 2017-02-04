@@ -13,7 +13,7 @@
 </html>
 <!-- header -->
 <header class="main-header"><!-- gray box? -->
-  <div class="container"> <!-- gray box?-->
+  <div class="main-header-layout container"> <!-- gray box?-->
     <div class="header-logo">
         <img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс">
     </div>
@@ -28,42 +28,35 @@
         <li>
           <a href="">Магазин</a>
         </li>
-        <li>
-          <a href="">Контакты</a>
+        <li>          <a href="">Контакты</a>
         </li>
       </ul>       
     </nav>
     <div class="buy"> 
-      <a class="basket" href="#"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина"></a>
+      <a class="basket" href="#"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина">Корзина</a>
     </div>
-
-    <!-- slider-->  
-    
+  </div>
+    <!-- slider--> 
+      
     <input type="radio" id="slide-1" name="point" checked>
     <input type="radio" id="slide-2" name="point">
     <input type="radio" id="slide-3" name="point">
 
-    <div class="slider">
+  <div class="slider">
         <div class="slide" id="slide1">
           <div class="slide-title">Долго, дорого, скрупулезно.</div>
           <div class="slide-description">Математически выверенный дизайн 
           для вашего сайта или мобильного приложения.</div>
-          <img src="img/slide1.png" width="698" height="413" alt="слайд">
-          <a class="slide-btn" href="#">Узнать больше</a>
         </div>
         <div class="slide" id="slide2">
           <div class="slide-title">Любим математику как никто другой.</div>
           <div class="slide-description">Никакого креатива, только математические формулы 
           для расчета идеальных пропорций.</div>
-          <img src="img/slide2.png" width="663" height="430" alt="слайд">
-          <a class="slide-btn" href="#">Узнать больше</a>
         </div>
         <div class="slide" id="slide3">
           <div class="slide-title">Только ночь,только хардкор</div>
           <div class="slide-description">Работать днем, как все? Мы против этого.
-          Ближе к полуночи работа только начинается.</div>
-          <img src="img/slide3.png" width="759" height="411" alt="слайд">
-          <a class="slide-btn" href="#">Узнать больше</a>
+          Ближе к полуночи работа только начинается.</div>          
         </div>        
         <div class="slider-controls">
           <label for="btn-1"></label>
@@ -75,23 +68,25 @@
 </header>
 
 <!-- main-->
-<main class="container">
+<main class="main-container">
 <!-- особенности -->
   <section class="features"> 
     <div class="features-item">
-       <img src="img/illustration-1.png" width="300" height="146" alt="Веб-сайты">
+    
+      <img src="img/illustration-1.png" class="info-graph" width="300" height="146" alt="Веб-сайты">
+       <!-- no img -->
        <h2>Веб-сайты</h2>                      <!-- из вебинара однозначно h2-->
        <p class="features-width">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
        <a class="btn col1" href="#">Заказать</a>        
     </div>
     <div class="features-item">
-       <img src="img/illustration-2.png" width="300" height="146" alt="Приложения">
+       <!--  --><img src="img/illustration-2.png" width="300" height="146" alt="Приложения"><!--  -->
        <h2>Приложения</h2>
        <p class="features-width">Покорите топ-10 приложений в AppStore и Google Play</p>
        <a class="btn col2" href="#">Заказать</a>        
     </div>
     <div class="features-item">
-       <img src="img/illustration-3.png" width="300" height="146" alt="Презентации">
+       <!--  --><img src="img/illustration-3.png" width="300" height="146" alt="Презентации"><!--  -->
        <h2>Презентации</h2>
        <p class="features-width">Вы даже не подозреваете,  насколько вы изумительны!</p>
        <a class="btn col3" href="#">Заказать</a>        
@@ -130,12 +125,12 @@
         <p>Минимальная предоплата</p>        
       </div>
     </div>
+  </div>
   
  <!-- partners-->
  
   <div class="partners">
-    <a href="#"><img src="img/logo-htmlacademy.png" width="199" height="68" alt="htmlacademy"> 
-      </div></a>
+    <a href="#"><img src="img/logo-htmlacademy.png" width="199" height="68" alt="htmlacademy"></a>
     <a href="#"><img src="img/logo-barbershop.png" width="209" height="90" class="partners-item" alt="Барбершоп «Бородинский"></a>
     <a href="#"><img src="img/logo-pink.png" width="185" height="52" class="partners-item" alt="Pink"></a>
     <a href="#"><img src="img/logo-mishka.png" width="173" height="84" class="partners-item" alt="Mishka"></a>
@@ -161,8 +156,9 @@
     <a class="social-btn social-btn-vk" href="#"><img src="img/vk-icon.png" width="26" height="15" alt="Вконтакте"></a>
     <a class="social-btn social-btn-fb" href="#"><img src="img/fb-icon.png" width="12" height="22" class="partners-item" alt="Фэйсбук"></a>
     <a class="social-btn social-btn-inst" href="#"><img src="img/insta-icon.png" width="21" height="21" class="partners-item" alt="Инстаграм"></a>
-  </section>
-  <p>Давайте дружить, это выгодно!</p>
+    <p>Давайте дружить, это выгодно!</p>
   <p>Скидка 10% для друзей из социальных сетей.</p>
+  </section>
+  
 </footer>
 
