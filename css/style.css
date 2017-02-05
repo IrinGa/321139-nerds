@@ -1,6 +1,6 @@
 body {
 font-size: 16px;
-height: 24px;
+height: 24px;     
 color: #283136;
 font-weigt: regular;
 font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -20,45 +20,60 @@ font-weigt: bold;
 font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.main-header {
+
+.container {
 	width: 1440px;
-	background: #EEEEEE;
+	padding: 0 10px;
+	margin: 0 auto;
+	background: #f6f5e7;
+}
+.main-header {
+	background: #eeeeee;
   }
 
 .main-header-layout {
   display: flex;
-  justify-content: space-between;  
-  width: 1260px;
-  margin-left: 60px; 
+  justify-content: space-between;
   background: gray;
-  margin-bottom: 73px;
+margin-bottom: 75px;
+ 
 }
   
 }
 .header-logo {
 	width: 160px;	
-	background: green;
-	 
+	height: 65px;
+		 
 	}
 
-.main-header-navigation {
+.header-navigation {
   width: 440px;
-  background: green;
+  background: #ddebc9;    
   
 }
 
+.navigation {
+	display: flex;	
+  justify-content: space-between;
+}
 .buy {
   width: 160px;
    min-height: 70px;
-    background: green;
+    
+  }
+  .slide-title {
+
+  }
+  .for_hide {
+  	display:none
   }
 
 .slider {
 	width: 400px;
 	margin-left: 140px;
 	margin-bottom: 80px;
-	background: red;
-	 min-height: 70px;
+	
+	 
 }
 .slide-title {
 	width: 400px;
@@ -68,18 +83,23 @@ font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .main-container {
-	width: 1440px;
-	background: #EEEEEE;
+	background: #eeeeee;
+	
+	
 }
 .features {
-	display: flex;
-	background: gray;
-	width: 1100px;
-	margin-left: 140px;
-	
+	display: flex;	
   justify-content: space-between;
-  margin-bottom: 125px;
+  background: #d6e5f8;
+  margin-left: 140px;
+  margin-right: 200px;
   
+  
+}
+.features-item {
+	width: 300px;
+	margin-bottom: 80px;
+
 }
 .info-graph {
 	width: 300px;
@@ -88,38 +108,38 @@ font-family: Roboto, Helvetica, Arial, sans-serif;
 .about {
 	display: flex;	
   justify-content: space-between;
-  margin-bottom: 75px;
   width: 1160px;
+  padding-top: 40px;
   margin: 0 auto;
-  background: gray;
+  background: #ddebc9;
+  margin-bottom: 75px;
+  
+  
 
 }
-.about-mission {
-	background: green;
+.about-mission {	
 	width: 660px;
-	margin: 0 auto;
 	
 }
-.about-data {
-	background: green;
+.about-data {	
 	width: 360px;
 }
 .partners {
 	display: flex;	
   justify-content: space-between;
   width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  background: gray;
+  padding: 45px 30px;
+  margin: 0 auto;
+  background: #d6e5f8;
 }
 .main-footer {
 	width: 1440px;
-	background: #EEEEEE;
 }
-.footer-social {
-	background: gray;
+	
+.footer-social {	
 	display: flex;	
   justify-content: space-between;
   width: 1160px;
   margin: 0 auto;
+  background: #ddebc9;
 }
