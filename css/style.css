@@ -22,79 +22,92 @@ font-family: Roboto, Helvetica, Arial, sans-serif;
 
 
 .container {
-	width: 1440px;
-	padding: 0 10px;
+	width: 1160px;
+	padding: 0 20px;
 	margin: 0 auto;
-	background: #f6f5e7;
+	background: #fff;
 }
-.main-header {
-	background: #eeeeee;
-  }
 
-.main-header-layout {
+header{
+    width: 100%;
+  background-color: lightpink;
+}
+
+.header-layout {
   display: flex;
   justify-content: space-between;
-  background: gray;
-margin-bottom: 75px;
- 
-}
-  
-}
+  background: lightgreen;
+margin-bottom: 75px; 
+}  
+
 .header-logo {
 	width: 160px;	
 	height: 65px;
 		 
 	}
 
+
 .header-navigation {
-  width: 440px;
-  background: #ddebc9;    
+  width: 440px;  
+     
   
+}
+.header-navigation a {
+	text-decoration: none;
+}
+
+.header-navigation li {
+display: inline-block;
+  vertical-align: top;	
+}
+
+
+.header-navigation ul {
+	margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .navigation {
 	display: flex;	
   justify-content: space-between;
 }
-.buy {
-  width: 160px;
-   min-height: 70px;
-    
-  }
-  .slide-title {
 
+.buy {
+  width: 80px;    
   }
+
+  
   .for_hide {
   	display:none
   }
 
-.slider {
-	width: 400px;
-	margin-left: 140px;
-	margin-bottom: 80px;
-	
-	 
-}
-.slide-title {
-	width: 400px;
-	margin-bottom: 25px;
-	padding: 0px; 
-	height: 50px;
+.slider {	
+background: lightgray;		 
 }
 
-.main-container {
-	background: #eeeeee;
-	
-	
+.slide {
+padding-left: 400px;
+
 }
+
+.slide-title {	
+	width: 380px;
+}
+slide-description {
+	width: 360px;
+}
+
+main {
+	 background-color: lightgreen;
+  
+}
+	
+
 .features {
 	display: flex;	
-  justify-content: space-between;
-  background: #d6e5f8;
-  margin-left: 140px;
-  margin-right: 200px;
-  
-  
+  justify-content: space-between;  
+  background: gray; 
 }
 .features-item {
 	width: 300px;
@@ -110,13 +123,12 @@ margin-bottom: 75px;
   justify-content: space-between;
   width: 1160px;
   padding-top: 40px;
-  margin: 0 auto;
-  background: #ddebc9;
-  margin-bottom: 75px;
   
-  
+ 
+  margin-bottom: 75px;  
 
 }
+
 .about-mission {	
 	width: 660px;
 	
@@ -127,21 +139,32 @@ margin-bottom: 75px;
 .partners {
 	box-sizing: border-box;
 	display: flex;	
-  justify-content: space-between;
-  width: 1160px;
-  padding: 45px 30px;
-  margin: 0 auto;
+  justify-content: space-between;  
+  padding: 45px 30px;  
   background: #d6e5f8;
 }
-.main-footer {
-	width: 1440px;
-	margin: 0 auto;
+
+.map{
+	position: relative;
+  background-color: beige;
 }
+.contact-box {
+	position: absolute;
+	width: 320px;
+	height: 310px;
+	border: 1px solid black;
+	top: 100px;
 	
+	left: 365px;
+}
+
+footer {
+	background-color: lightblue;
+}
+
 .footer-social {	
 	display: flex;	
   justify-content: space-between;
-  width: 1160px;
-  margin: 0 auto;
+  
   background: #ddebc9;
 }
