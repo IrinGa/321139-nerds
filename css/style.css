@@ -25,12 +25,12 @@ font-family: Roboto, Helvetica, Arial, sans-serif;
 	width: 1160px;
 	padding: 0 20px;
 	margin: 0 auto;
-	background: #fff;
+	
 }
 
 header{
     width: 100%;
-  background-color: lightpink;
+  background-color: lightgray;
 }
 
 .header-layout {
@@ -82,6 +82,8 @@ display: inline-block;
   	display:none
   }
 
+
+
 .slider {	
 background: lightgray;		 
 }
@@ -99,7 +101,7 @@ slide-description {
 }
 
 main {
-	 background-color: lightgreen;
+	 
   
 }
 	
@@ -146,16 +148,18 @@ main {
 
 .map{
 	position: relative;
-  background-color: beige;
+	display: inline-block;
+  
 }
 .contact-box {
 	position: absolute;
 	width: 320px;
 	height: 310px;
 	border: 1px solid black;
-	top: 100px;
+	top: 0;
 	
-	left: 365px;
+	
+	left: 0;
 }
 
 footer {
@@ -167,4 +171,61 @@ footer {
   justify-content: space-between;
   
   background: #ddebc9;
+}
+
+.things-item, 
+.grid-item {
+display:block;
+}
+
+.filter_catalog {
+	width: 260px;
+	background: lightgreen;	
+}
+
+main {
+background: lightpink;	
+}
+
+.wrap {
+	
+  
+	width: 1160px;
+}
+
+.main-layout {
+	width: 1160px;
+	display: flex;	
+  justify-content: space-between;
+}
+
+.kind-sorter {
+	width: 280px;
+	display: flex;	
+  justify-content: space-between;
+}
+  
+  
+
+
+.templates {
+	width: 760px;
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-between;  
+  background: lightblue;  
+}
+
+.templates-item {
+	
+	width: 360px;
+	margin-bottom: 40px;
+}
+.wrap {	
+  
+}
+.templates-paginations {
+	display: flex;	
+  justify-content: space-between;
+  width: 440px;
 }
