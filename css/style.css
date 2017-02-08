@@ -173,12 +173,17 @@ footer {
   background: #ddebc9;
 }
 
+.back {
+	 width: 100%;
+	background: #eeeeee;
+}
+ 
 .things-item, 
 .grid-item {
 display:block;
 }
 
-.filter_catalog {
+.filter-catalog {
 	width: 260px;
 	background: lightgreen;	
 }
