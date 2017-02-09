@@ -177,6 +177,17 @@ footer {
 	 width: 100%;
 	background: #eeeeee;
 }
+main {
+background: lightpink;	
+}
+
+.main-layout {
+	width: 1160px;
+	display: flex;	
+  justify-content: space-between;
+
+
+}
  
 .things-item, 
 .grid-item {
@@ -188,20 +199,19 @@ display:block;
 	background: lightgreen;	
 }
 
-main {
-background: lightpink;	
+
+.wrap {	
+ display: flex;	
+  justify-content: space-between;
+	width: 760px;
+	background: yellow;
 }
 
-.wrap {
-	
-  
-	width: 1160px;
-}
-
-.main-layout {
-	width: 1160px;
+.sorter {
 	display: flex;	
   justify-content: space-between;
+  width: 760px;
+  background:  ;
 }
 
 .kind-sorter {
@@ -211,14 +221,12 @@ background: lightpink;
 }
   
   
-
-
 .templates {
 	width: 760px;
 	display: flex;	
 	flex-wrap: wrap;
 	justify-content: space-between;  
-  background: lightblue;  
+    background: lightblue; 
 }
 
 .templates-item {
@@ -226,9 +234,7 @@ background: lightpink;
 	width: 360px;
 	margin-bottom: 40px;
 }
-.wrap {	
-  
-}
+
 .templates-paginations {
 	display: flex;	
   justify-content: space-between;
