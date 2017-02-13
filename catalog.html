@@ -32,7 +32,7 @@
 				</div>
 				</div><!-- header-layout-->
 
-					<h1>Магазин готовых шаблонов</h1>
+					<h1 class="container">Магазин готовых шаблонов</h1>
 				
 		</header>
 
@@ -43,7 +43,7 @@
 			<div class="main-layout">
 				
 				<div class="filter-catalog"><!-- filter-catalog-->
-				<h2>Стоимость:</h2>
+				<p class="filter-title">Стоимость:</p>
 				
 				<div class="price-filter">
 					<div class="range-filter">
@@ -62,7 +62,7 @@
 						</div> <!-- price-filter-->
 						<form action="https://echo.htmlacademy.ru" method="get">
 							<fieldset class="grid">
-								<legend class="grid-title"><h2>Сетка:</h2></legend> <!-- можно еще списком-->
+								<legend class="grid-title"><p class="filter-title">Сетка:</p></legend> <!-- можно еще списком-->
 								<label class="grid-item">
 									<input type="radio" name="kind-grid" value="Адаптивная" checked="">Адаптивная
 								</label>
@@ -74,20 +74,20 @@
 								</label>
 							</fieldset>
 							<fieldset class="things">
-								<legend class="things_title"><h2>Особенности:</h2></legend>
+								<legend class="things_title"><p class="filter-title">Особенности:</p></legend>
 								<label class="things-item">
-									<input type="=&quot;checkbox&quot;" name="item-things" value="Слайдер" checked="">Слайдер
+									<input type="checkbox" name="item-things" value="Слайдер" checked="">Слайдер
 								</label>
 								<label class="things-item">
-									<input type="=&quot;checkbox&quot;" name="item-things" value="Блок преимуществ">Блок преимуществ
+									<input type="checkbox" name="item-things" value="Блок преимуществ">Блок преимуществ
 									<label class="things-item">
-										<input type="=&quot;checkbox&quot;" name="item-things" value="Новости" checked="">Новости
+										<input type="checkbox" name="item-things" value="Новости" checked="">Новости
 									</label>
 									<label class="things-item">
-										<input type="=&quot;checkbox&quot;" name="item-things" value="Галерея" checked="">Галерея
+										<input type="checkbox" name="item-things" value="Галерея" checked="">Галерея
 									</label>
 									<label class="things-item">
-										<input type="=&quot;checkbox&quot;" name="item-things" value="Корзина" checked="">Корзина
+										<input type="checkbox" name="item-things" value="Корзина" checked="">Корзина
 									</label>
 								</label></fieldset>
 								<input class="btn" type="submit" value="Показать">
@@ -97,11 +97,11 @@
 						
 						<div class="item-block">
 							<div class="sort-block">
-								<h2>Сортировать:</h2>
+								<p class="filter-title">Сортировать:</p>
 								<ul class="kind-sorter">
-									<li><a href="#">По цене</a></li>
-									<li><a>По типу</a></li>
-									<li><a>По названию</a></li>
+									<li><a class="sort-filter" href="#">По цене</a></li>
+									<li><a class="sort-filter">По типу</a></li>
+									<li><a class="sort-filter">По названию</a></li>
 								</ul>
 								<div>
 									<a class="btn down" href="#">вниз</a>
