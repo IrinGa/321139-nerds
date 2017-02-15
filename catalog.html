@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		
-		<header>
+		<header class="main-header">
 			
 			<div class="header-layout container">
 				<div class="header-logo">
@@ -26,60 +26,59 @@
 							<a href="">Контакты</a>
 						</li>
 						</ul> <!-- end of flex-->
-				</nav>
-				<div class="buy">
-						<a class="basket" href="#"><img src="img/cart-icon.png" width="15" height="15" alt="Корзина">Корзина</a>
-				</div>
-				</div><!-- header-layout-->
-
-					<h1 class="container">Магазин готовых шаблонов</h1>
+					</nav>
+					<div class="buy">
+						<a class="basket" href="#">Корзина</a>
+					</div>
+					</div><!-- header-layout-->
+					<h1 class="catalog-title container">Магазин готовых шаблонов</h1>
+					
+				</header>
+				<!-- main-->
+				<main class="container">
 				
-		</header>
-
-			<!-- main-->
-			<main class="container">
-			
-			
-			<div class="main-layout">
 				
-				<div class="filter-catalog"><!-- filter-catalog-->
-				<p class="filter-title">Стоимость:</p>
-				
-				<div class="price-filter">
-					<div class="range-filter">
-						<div class="range-controls">
-							<div class="scale">
-								<div style="margin-left:50px;width:100px;" class="bar">
+				<div class="main-layout" container>
+					
+					<div class="filter-catalog"><!-- filter-catalog-->
+					<p class="filter-title">Стоимость:</p>
+					
+					<div class="price-filter">
+						<div class="range-filter">
+							<div class="range-controls">
+								<div class="scale">
+									<div style="margin-left:50px;width:100px;" class="bar">
+									</div>
 								</div>
+								<div class="toggle min-toggle"></div>
+								<div class="toggle max-toggle"></div>
 							</div>
-							<div class="toggle min-toggle"></div>
-							<div class="toggle max-toggle"></div>
-						</div>
-						<div class="price-controls">
-							от <input class="min-price" type="text" value="0">
-							до <input class="max-price" type="text" value="15 000">
-						</div>
-						</div> <!-- price-filter-->
-						<form action="https://echo.htmlacademy.ru" method="get">
-							<fieldset class="grid">
-								<legend class="grid-title"><p class="filter-title">Сетка:</p></legend> <!-- можно еще списком-->
-								<label class="grid-item">
-									<input type="radio" name="kind-grid" value="Адаптивная" checked="">Адаптивная
-								</label>
-								<label class="grid-item">
-									<input type="radio" name="kind-grid" value="Фиксированная">Фиксированная
-								</label>
-								<label class="grid-item">
-									<input type="radio" name="kind-grid" value="Резиновая">Резиновая
-								</label>
-							</fieldset>
-							<fieldset class="things">
-								<legend class="things_title"><p class="filter-title">Особенности:</p></legend>
-								<label class="things-item">
-									<input type="checkbox" name="item-things" value="Слайдер" checked="">Слайдер
-								</label>
-								<label class="things-item">
-									<input type="checkbox" name="item-things" value="Блок преимуществ">Блок преимуществ
+							<div  class="price-control">
+								<span>от</span> <input class="min-price" type="text" value="0">
+								<span>до</span><input class="max-price" type="text" value="15 000">
+							</div>
+							</div> <!-- price-filter-->
+							<form action="https://echo.htmlacademy.ru" method="get">
+								<fieldset class="grid">
+									<legend class="grid-title">Сетка:</legend> <!-- можно еще списком-->
+									<label class="grid-item">
+										<input type="radio" name="kind-grid" value="Адаптивная" checked="">Адаптивная
+									</label>
+									<label class="grid-item">
+										<input type="radio" name="kind-grid" value="Фиксированная">Фиксированная
+									</label>
+									<label class="grid-item">
+										<input type="radio" name="kind-grid" value="Резиновая">Резиновая
+									</label>
+								</fieldset>
+								<fieldset class="things">
+									<legend class="things-title"><p>Особенности:</p></legend>
+									<label class="things-item">
+										<input type="checkbox" name="item-things" value="Слайдер" checked="">Слайдер
+									</label>
+									<label class="things-item">
+										<input type="checkbox" name="item-things" value="Блок преимуществ">Блок преимуществ
+									</label>
 									<label class="things-item">
 										<input type="checkbox" name="item-things" value="Новости" checked="">Новости
 									</label>
@@ -103,9 +102,7 @@
 									<li><a class="sort-filter">По типу</a></li>
 									<li><a class="sort-filter">По названию</a></li>
 								</ul>
-								<div>
-									<a class="btn down" href="#">вниз</a>
-									<a class="btn up" href="#">вверх</a>
+								<div class="arrows">
 								</div>
 								</div><!-- sort-block-->
 								<div class="templates">

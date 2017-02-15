@@ -4,8 +4,8 @@ font-size: 16px;
 height: 24px;
 color: #000000;
 font-weigt: regular;
-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-margin: 0;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+/*margin: 0;*/
 }
 .main-header {
 width: 100%;
@@ -53,9 +53,10 @@ font-weigt: medium;
 text-transform: uppercase;
 text-decoration: none;
 color: #000000;
-background: lightyellow;
+background: red;
 }
 .header-navigation li  {
+	
 }
 .buy {
 position: relative;
@@ -78,7 +79,15 @@ opacity: 0.3;
 .buy:hover::before {
 opacity: 1;
 }
-/*index*/
+/**/
+h1 {
+font-size: 55px;
+height: 55px;
+color: #000000;
+font-weigt: medium;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+background: gray;
+}
 .for_hide {
 display:none
 }
@@ -158,48 +167,8 @@ justify-content: space-between;
 background: #ddebc9;
 }
 /*Каталог*/
-.catalog-title {
-font-size: 55px;
-height: 55px;
-color: #000000;
-font-weigt: medium;
+h1 {
 text-align: center;
-padding-bottom: 80px;
-}
-.range-controls {
-position: relative;
-width: 260px;
-height: 80px;
-border-radius: 3px;
-background: #eeeeee;
-margin-bottom: 15px;
-}
-.range-controls::before {
-position: absolute;
-display: block;
-left: 20px;
-top: 30px;
-width: 165px;
-height: 25px;
-content: "";
-background-image: url("../img/slider-round.png");
-}
-.price-control {
-font-size: 22px;
-line-height: 16px;
-color: #000000;
-margin-bottom: 60px;
-}
-.min-price, .max-price {
-display: inline-block;
-width: 80px;
-height: 38px;
-font-size: 16px;
-line-height: 22px;
-color: #000000;
-background: #eeeeee;
-text-align: center;
-border-radius: 3px;
 }
 .filter-title {
 font-size: 18px;
@@ -208,114 +177,20 @@ font-weigt: bold;
 text-transform: uppercase;
 margin: 0;
 }
-.grid-title, .things-title {
-font-size: 18px;
-line-height: 30px;
-font-weigt: bold;
-text-transform: uppercase;
-text-align: left;
-margin: 0;
-padding: 0;
-margin-bottom: 20px;
-}
-.grid {
-width: 200px;
-list-style: none;
-border: none;
-padding: 0;
-margin: 0;
-vertical-align: left;
-margin-bottom: 45px;
-}
-.things {
-width: 200px;
-border: none;
-padding: 0;
-margin: 0;
-vertical-align: left;
-margin-bottom: 50px;
-}
-.grid-item, .things-item {
-display: inline-block;
-box-sizing: border-box;
-position: relative;
-font-size: 16px;
-line-height: 20px;
-width: 200px;
-min-height: 25px;
-margin-bottom: 15px;
-}
-input[type=checkbox], input[type=radio]
-{display: none;}
-
-/*radio*/
-.radio:not + .grid-item {
-position: relative;
-padding: 0 0 10px 44px;
-}
-.radio:not + .grid-item::before {
-content: "";
-width: 25px;
-height: 25px;
-background-image: url("../img/radio-off.png");
-position: absolute;
-left: 6px;
-top: 6px;
-}
-.radio:checked + .grid-item::after {
-content: "";
-width: 25px;
-height: 25px;
-background-image: url("../img/radio-on.png");
-
-position: absolute;
-
-left: 6px;
-top: 6px;
-}
-.price-filter {
-margin-top: 60px;
-}
 .sort-filter {
 font-size: 14px;
-line-height: 18px;
+font-weight: 18px;
 text-transform: uppercase;
 color: #000000;
+margin: 0;
 }
 main {
+background: lightyellow;
 }
 .main-layout {
 width: 1160px;
 display: flex;
 justify-content: space-between;
-}
-.arrows {
-width: 40px;
-position: relative;
-}
-.arrows::before {
-content: "";
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-top: 14px solid #000000;
-}
-.arrows::after {
-content: "";
-display: block;
-position: absolute;
-top: 0;
-right: 0;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-bottom: 14px solid #cccccc;
 }
 .things-item,
 .grid-item {
@@ -328,12 +203,14 @@ width: 260px;
 display: flex;
 justify-content: space-between;
 width: 760px;
-flex-wrap: wrap;
+flex-direction: column;
+background: lightgray;
 }
 .sort-block {
 width: 760px;
 display: flex;
 justify-content: space-between;
+background: lightyellow;
 }
 .kind-sorter {
 display: flex;
@@ -345,30 +222,17 @@ text-decoration: none;
 }
 .sort-block ul {
 list-style: none;
-padding: 0;
-margin: 0;
 }
 .templates {
 width: 760px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-margin-top: 100px;
+background: ;
 }
 .templates-item {
-position: relative;
 width: 360px;
-margin-bottom: 75px;
-}
-.templates-item::before {
-position: absolute;
-display: block;
-left: 0;
-top: -40px;
-width: 360px;
-height: 40px;
-content: "";
-background-image: url("../img/browser.png");
+margin-bottom: 35px;
 }
 .templates-paginations {
 display: flex;
