@@ -249,11 +249,11 @@ input[type=checkbox], input[type=radio]
 {display: none;}
 
 /*radio*/
-.radio:not + .grid-item {
+.radio:not(checked) + .grid-item {
 position: relative;
 padding: 0 0 10px 44px;
 }
-.radio:not + .grid-item::before {
+.radio:not(checked) + .grid-item::before {
 content: "";
 width: 25px;
 height: 25px;
