@@ -166,40 +166,64 @@ font-weigt: medium;
 text-align: center;
 padding-bottom: 80px;
 }
+.range-filter {
+width: 260px;
+}
 .range-controls {
 position: relative;
-width: 260px;
 height: 80px;
-border-radius: 3px;
-background: #eeeeee;
 margin-bottom: 15px;
+padding: 0 20px;
+border-radius: 5px;
+background: #f1f1f1;
 }
-.range-controls::before {
+.range-controls .scale {
+height: 2px;
+background: #d7dcde;
+margin-top: 39px;
+}
+/*green*/
+.range-controls .bar {
+width: 70%;
+height: 2px;
+background: #00ca74;
+margin-top: 39px;
+}
+.range-controls .toggle {
 position: absolute;
-display: block;
-left: 20px;
 top: 30px;
-width: 165px;
-height: 25px;
-content: "";
-background-image: url("../img/slider-round.png");
+left: 30px;
+width: 4px;
+height: 4px;
+border: 8px solid #fff;
+border-radius: 50%;
+background: #ababab;
+box-shadow: 0 2px 1px 0 #cfcfcf;
 }
-.price-control {
-font-size: 22px;
-line-height: 16px;
-color: #000000;
-margin-bottom: 60px;
+.range-controls .toggle-min {
+left: 20px;
 }
-.min-price, .max-price {
+.range-controls .toggle-max {
+left: 145px;
+}
+.price-controls {
+font-size: 0;
+}
+.price-controls label {
+font-size: 16px;
 display: inline-block;
-width: 80px;
-height: 38px;
+width: 50%;
+}
+.price-controls input {
 font-size: 16px;
 line-height: 22px;
-color: #000000;
-background: #eeeeee;
+width: 80px;
+padding: 8px 10px;
 text-align: center;
-border-radius: 3px;
+color: #283136;
+margin-left: 10px;
+border-radius: 5px;
+background: #f1f1f1;
 }
 .filter-title {
 font-size: 18px;
@@ -247,7 +271,6 @@ margin-bottom: 15px;
 }
 input[type=checkbox], input[type=radio]
 {display: none;}
-
 /*radio*/
 .radio:not(checked) + .grid-item {
 position: relative;
@@ -267,9 +290,7 @@ content: "";
 width: 25px;
 height: 25px;
 background-image: url("../img/radio-on.png");
-
 position: absolute;
-
 left: 6px;
 top: 6px;
 }
